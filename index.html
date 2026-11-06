@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff6fa">
+  <meta name="description" content="A friendly, balanced guide to what artificial intelligence can do, where it can go wrong, and what comes next.">
+  <title>AI, explained — a little less mysterious</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the story</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="AI, explained — home"><span class="brand-mark" aria-hidden="true">✿</span> curious minds club</a>
+    <nav aria-label="Main navigation">
+      <a href="#what">The basics</a><a href="#bright">The bright side</a><a href="#careful">The fine print</a><a href="#next">What’s next?</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true">✦</span> A student’s guide</p>
+        <h1 id="hero-title">So, what is<br><em>AI, really?</em></h1>
+        <p class="hero-intro">I hear about AI everywhere, so I wanted to understand what it actually does. It can be useful, but it can also get things wrong. Here’s what I found.</p>
+        <a class="button" href="#what">Start with the basics <span aria-hidden="true">↓</span></a>
+        <p class="small-note">A short guide · about 5 minutes</p>
+      </div>
+      <div class="hero-art" aria-label="Decorative pink illustration of a friendly little robot surrounded by flowers" role="img">
+        <div class="sunburst" aria-hidden="true"></div><span class="sparkle s1" aria-hidden="true">✦</span><span class="sparkle s2" aria-hidden="true">✧</span>
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="bot" aria-hidden="true"><div class="antenna"></div><div class="bot-head"><span class="eye"></span><span class="eye"></span><span class="cheek left"></span><span class="cheek right"></span><span class="smile"></span></div><div class="bot-body"><span>AI</span></div><div class="bot-arm arm-left"></div><div class="bot-arm arm-right"></div></div>
+        <span class="flower f1" aria-hidden="true">✿</span><span class="flower f2" aria-hidden="true">✿</span><span class="flower f3" aria-hidden="true">✿</span>
+        <div class="art-caption">a little curious?</div>
+      </div>
+      <div class="hero-sticker" aria-hidden="true">smart<br>is asking<br>questions <span>♡</span></div>
+    </section>
+
+    <section class="section basics" id="what" aria-labelledby="what-title">
+      <div class="section-heading"><p class="eyebrow">01 · The basics</p><h2 id="what-title">So, what <em>is</em> AI?</h2></div>
+      <div class="basics-grid">
+        <div class="basics-copy"><p class="lede">AI is software that finds patterns in information to make a useful guess, suggestion, decision or piece of content.</p><p>Some systems sort photos or recommend a song. Generative AI creates text, images, audio or code by learning patterns from examples. This can look like understanding, but it isn’t the same as knowing what’s true or feeling what something means.</p><p class="source-line">The OECD describes AI systems as inferring outputs from inputs. <a href="https://oecd.ai/en/inside-artificial-intelligence" target="_blank" rel="noopener">OECD guide ↗</a></p></div>
+      <div class="recipe-card" aria-labelledby="recipe-title"><div class="recipe-top"><span class="recipe-icon" aria-hidden="true">✿</span><span class="pill">the pattern recipe</span></div><h3 id="recipe-title">How a text generator makes a reply</h3><ol class="steps"><li><span class="step-no">1</span><span><b>Prompt</b><small>You ask a question or give it a task.</small></span></li><li><span class="step-no">2</span><span><b>Patterns</b><small>It uses learned patterns to estimate what fits.</small></span></li><li><span class="step-no">3</span><span><b>Draft</b><small>It produces an answer that still needs a human check.</small></span></li></ol><button class="tiny-button" id="example-button" type="button" aria-controls="example-output" aria-expanded="false">Try a tiny example <span aria-hidden="true">↗</span></button><p class="example-output" id="example-output" hidden aria-live="polite"></p></div>
+      </div>
+    </section>
+
+    <section class="section bright" id="bright" aria-labelledby="bright-title">
+      <div class="section-heading"><p class="eyebrow">02 · Where it helps</p><h2 id="bright-title">Some useful <em>everyday examples</em></h2><p class="section-deck">AI can save time and make some tasks easier. A person still needs to check the result.</p></div>
+      <div class="benefit-grid">
+        <article class="benefit-card"><span class="card-icon" aria-hidden="true">✎</span><h3>A study buddy</h3><p>Ask for a simpler explanation, practice questions or draft feedback. Check the result against class notes and trusted sources.</p><span class="card-tag">learn with it</span></article>
+        <article class="benefit-card"><span class="card-icon" aria-hidden="true">⌕</span><h3>A pattern spotter</h3><p>Researchers and clinicians can sift images or measurements and flag patterns for an expert to review.</p><span class="card-tag">notice more</span></article>
+        <article class="benefit-card"><span class="card-icon" aria-hidden="true">♡</span><h3>A door opener</h3><p>Speech recognition, captions and translation can make information easier to reach across needs and languages.</p><span class="card-tag">make access easier</span></article>
+      </div>
+      <aside class="rule-of-thumb"><span aria-hidden="true">✦</span><p><b>Good rule:</b> use AI to get started, get unstuck or explore options. For facts, health, money or important decisions, check with a reliable source or qualified person.</p></aside>
+    </section>
+
+    <section class="section careful" id="careful" aria-labelledby="careful-title">
+      <div class="section-heading"><p class="eyebrow">03 · What to watch for</p><h2 id="careful-title">Useful, but not <em>always reliable</em></h2><p class="section-deck">AI systems learn from information created by people, so they can carry human mistakes and unfairness with them.</p></div>
+      <div class="risk-layout"><div class="risk-list">
+        <article class="risk-item"><span class="risk-number">01</span><div><h3>It can be wrong, very persuasively.</h3><p>A chatbot may invent a source or mix up a detail. Treat a polished answer as a draft, not proof.</p></div></article>
+        <article class="risk-item"><span class="risk-number">02</span><div><h3>Bias can travel at scale.</h3><p>Training data can reflect unfair patterns. Automated tools may repeat or amplify them, so test outcomes across groups.</p></div></article>
+        <article class="risk-item"><span class="risk-number">03</span><div><h3>Privacy is part of the prompt.</h3><p>Check a tool’s settings before sharing personal, school or work information. Uploaded data may be hard to control.</p></div></article>
+        <article class="risk-item"><span class="risk-number">04</span><div><h3>Seeing isn’t always believing.</h3><p>AI-generated voices or video can help scammers impersonate someone. In a reported Hong Kong case, fraudsters used a deepfake video meeting to convince an employee to transfer about HK$200 million. <a href="https://www.scmp.com/news/hong-kong/law-and-crime/article/3250851/everyone-looked-real-multinational-firms-hong-kong-office-loses-hk200-million-after-scammers-stage" target="_blank" rel="noopener">Read the case report ↗</a></p></div></article>
+      </div><aside class="check-card"><span class="check-flower" aria-hidden="true">✿</span><p class="eyebrow">Pause & check</p><h3>Before you trust it…</h3><ul><li>Can I verify this elsewhere?</li><li>Could someone be harmed if it’s wrong?</li><li>Am I sharing anything private?</li><li>Should a person make the final call?</li></ul><p class="source-line">NIST’s AI Risk Management Framework highlights reliability, safety, security, privacy and fairness as things teams should manage. <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">Explore the framework ↗</a></p></aside></div>
+    </section>
+
+    <section class="section future" id="next" aria-labelledby="next-title">
+      <div class="future-heading"><p class="eyebrow">04 · Looking ahead</p><h2 id="next-title">What might <em>come next?</em></h2><p>AI may take on more tasks at work and in everyday life. That could be helpful, but it also raises questions about jobs, security and who is responsible when a system gets something wrong.</p><p>AI data centres use a lot of electricity, which puts pressure on local power grids. I think that means energy planning will matter as AI grows. It doesn’t mean blackouts are inevitable, but the infrastructure has to keep up. <a href="https://www.reuters.com/legal/litigation/pjm-unveils-plan-tackle-ai-driven-power-demand-surge-2026-01-16/" target="_blank" rel="noopener">Reuters on a power-grid plan ↗</a></p></div>
+      <div class="future-note"><span class="future-icon" aria-hidden="true">☼</span><p class="eyebrow">One possibility</p><h3>Better tools,<br>used thoughtfully.</h3><p>I hope AI helps with useful tasks while people stay involved in decisions that affect someone’s health, money or future.</p><span class="forecast-label">the choices are ours</span></div>
+    </section>
+
+    <section class="section process" id="made" aria-labelledby="made-title">
+      <div class="section-heading"><p class="eyebrow">05 · Behind the page</p><h2 id="made-title">A note about <em>this project</em></h2></div>
+      <div class="process-card"><p>I wanted the site to feel friendly, so I used pinks and a few flower details. I kept the sections short and added a small example you can try. The page also adjusts for phones.</p><p>I used AI to help brainstorm, shape some explanations and troubleshoot code. Then I checked the information against the sources below and edited the site myself. The ideas and final choices here are mine.</p></div>
+    </section>
+
+    <section class="sources" aria-labelledby="sources-title"><div><p class="eyebrow">Keep exploring</p><h2 id="sources-title">Sources & further reading</h2></div><ul><li><a href="https://oecd.ai/en/inside-artificial-intelligence" target="_blank" rel="noopener">OECD · How AI works ↗</a></li><li><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">NIST · AI risk framework ↗</a></li><li><a href="https://www.scmp.com/news/hong-kong/law-and-crime/article/3250851/everyone-looked-real-multinational-firms-hong-kong-office-loses-hk200-million-after-scammers-stage" target="_blank" rel="noopener">SCMP · Deepfake video fraud ↗</a></li><li><a href="https://www.reuters.com/legal/litigation/pjm-unveils-plan-tackle-ai-driven-power-demand-surge-2026-01-16/" target="_blank" rel="noopener">Reuters · Data-centre power ↗</a></li></ul></section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✿</span> curious minds club</a><span>Stay curious. Keep a human in the loop. <span aria-hidden="true">♡</span></span></footer>
+</body>
+</html>
